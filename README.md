@@ -17,8 +17,7 @@ Then run:
 ```
 sudo docker-compose up -d
 ```
-
-## add permission to config, addons, odoo and data folders for the project environment
+## Add permission to config, addons, odoo and data folders for the project environment
 ```
 sudo chmod -R 777 odoo
 sudo chmod -R 777 data
@@ -26,7 +25,7 @@ sudo chmod -R 777 config
 sudo chmod -R 777 addons
 ```
 ## 
-Then run:
+Then retart docker:
 ```
 sudo docker-compose restart
 ```
